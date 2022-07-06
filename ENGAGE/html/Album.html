@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="mohammed abduall" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/Album.css" />
+  </head>
+  <body>
+    <section id="loading">
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </section>
+    <!-- ***project start*** -->
+    <button id="bton" class="text-white p-2 rounded-circle">
+      <i class="fas fa-circle-arrow-up"></i>
+    </button>
+    <!-- ***startHeader*** -->
+
+    <section>
+      <!-- ***startnav*** -->
+      <nav
+        id="main-nav"
+        class="navbar navbar-expand-lg fixed-top navbar-dark bg-transporta"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><h2 class="ps-5">
+              <img src="../imges/engage-photography.png" alt="" /></h2
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="mony nav-link active me-2"
+                  aria-current="page"
+                  href="file:///D:/project%20mohammed/ENGAGE/html/index4.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="mony nav-link active me-2"
+                  aria-current="page"
+                  href="file:///D:/project%20mohammed/ENGAGE/html/ABOUT.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="mony nav-link active me-2"
+                  aria-current="page"
+                  href="file:///D:/project%20mohammed/ENGAGE/html/Album.html"
+                  >Albums</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="mony nav-link active me-2"
+                  aria-current="page"
+                  href="file:///D:/project%20mohammed/ENGAGE/html/Blog.html"
+                  >Blog</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="mony nav-link active me-3"
+                  aria-current="page"
+                  href="file:///D:/project%20mohammed/ENGAGE/html/cintect-us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <i class="fa-solid fa-magnifying-glass fa-2x text-light pe-5"></i>
+          </div>
+        </div>
+      </nav>
+      <!-- ******endnav********* -->
+      <div class="header p-3">
+        <h1 class="text-center pt-5 text-light">Albums</h1>
+        <p class="text-center text-light fa-2x p-3">
+          Our brilliant latest work.
+        </p>
+      </div>
+    </section>
+
+    <div id="options" class="d-flex align-items-start">
+      <div id="colorsBox" class="">
+        <h4 class="fw-bolder">choose your color</h4>
+        <div class="color-itms"></div>
+        <div class="color-itms"></div>
+        <div class="color-itms"></div>
+        <div class="color-itms"></div>
+        <div class="color-itms"></div>
+      </div>
+      <i id="icosa" class="fa-solid fa-cog"></i>
+    </div>
+
+    <!-- ***welcom section start*** -->
+    <section id="welcom"></section>
+    <!-- ***welcom section end*** -->
+
+    <!-- ***Albums section start*** -->
+    <section id="Albums" class="Albums py-5">
+      <div>
+        <h3 class="text-center text-light">Latest Albums</h3>
+        <p class="text-center py-3">
+          This is a subtitle, feel free to change it!
+        </p>
+      </div>
+
+      <ul
+        class="nav nav-tabs d-flex justify-content-center"
+        id="myTab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="dsvds nav-link active"
+            id="All-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#All"
+            type="button"
+            role="tab"
+            aria-controls="All"
+            aria-selected="true"
+          >
+            Show All
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="Landscape-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#Landscape"
+            type="button"
+            role="tab"
+            aria-controls="Landscape"
+            aria-selected="false"
+          >
+            Landscape
+          </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="Mountains-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#Mountains"
+            type="button"
+            role="tab"
+            aria-controls="Mountains"
+            aria-selected="false"
+          >
+            Mountains
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="Nature-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#Nature"
+            type="button"
+            role="tab"
+            aria-controls="Nature"
+            aria-selected="false"
+          >
+            Nature
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="Photography-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#Photography"
+            type="button"
+            role="tab"
+            aria-controls="Photography"
+            aria-selected="false"
+          >
+            Photography
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="Travel-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#Travel"
+            type="button"
+            role="tab"
+            aria-controls="Travel"
+            aria-selected="false"
+          >
+            Travel
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="All"
+          role="tabpanel"
+          aria-labelledby="All-tab"
+        >
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/alex-iby-251903-600x899.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="work-itmes position-relative py-4">
+                  <div class="work-img">
+                    <img
+                      src="../imges/photo-1495234347927-15da3bd48ee6.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="work-itmes position-relative py-4">
+                  <div class="work-img">
+                    <img
+                      src="../imges/andrew-worley-305131-900x.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/nathaniel-chang-298253-600x400.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="my-4 work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/lesly-b-juarez-199312-600x400.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="my-4 work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/redd-angelo-11908-600x400.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="my-4 work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/romain-lours-133986-600x420.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/mohammad-metri-325178-600x821.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-4 work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/photo-1486074051793-e41332bf18fc-600x764.jpeg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="Landscape"
+          role="tabpanel"
+          aria-labelledby="Landscape-tab"
+        >
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/photo-1495234347927-15da3bd48ee6.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="Mountains"
+          role="tabpanel"
+          aria-labelledby="Mountains-tab"
+        >
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/redd-angelo-11908-600x420.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/romain-lours-133986-600x420.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="Nature"
+          role="tabpanel"
+          aria-labelledby="Nature-tab"
+        >
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/alex-iby-251903-600x899.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/lesly-b-juarez-199312-600x420.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="btn-contin d-flex justify-content-center">
+              <button class="btn btn-danger">View All</button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="Photography"
+          role="tabpanel"
+          aria-labelledby="Photography-tab"
+        >
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/mohammad-metri-325178-600x821.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/lesly-b-juarez-199312-600x420.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="work-itmes position-relative py-4">
+                  <div class="work-img">
+                    <img
+                      src="../imges/andrew-worley-305131-900x.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/photo-1486074051793-e41332bf18fc-600x764.jpeg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="Travel"
+          role="tabpanel"
+          aria-labelledby="Travel-tab"
+        >
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/nathaniel-chang-298253-600x400.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="work-itmes position-relative">
+                  <div class="work-img">
+                    <img
+                      src="../imges/grant-porter-113533-600x420.jpg"
+                      class="w-100"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="layer opacity-0 d-flex justify-content-center align-items-center position-absolute w-100 h-100 top-0"
+                  >
+                    <div
+                      class="wores-content d-flex justify-content-center align-items-center position-relative top-50"
+                    >
+                      <div class="icons">
+                        <i
+                          class="fa-solid fa-magnifying-glass fa-1x text-light"
+                        ></i>
+                      </div>
+                      <div class="icoms rounded-pill">
+                        <i class="fa-solid fa-link fa-1x text-light pe-5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="btn-contin d-flex justify-content-center">
+              <button class="btn btn-danger">View All</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***Albums section end*** -->
+
+    <!-- ***endsa section start*** -->
+    <section id="endsa">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 p-5">
+            <div class="d-flex justify-content-center p-4">
+              <img src="../imges/engage-photography.png" alt="" />
+            </div>
+            <div class="amil d-flex justify-content-center py-3">
+              <h4>midomom22@yahoo.com</h4>
+            </div>
+            <div class="mjfm d-flex mx-auto">
+              <div class="icons">
+                <a href="https://www.facebook.com/">
+                  <i class="fa-brands fa-facebook-f fa-2x text-light"></i
+                ></a>
+              </div>
+              <div class="icons goog">
+                <a href="https://www.google.com/?hl=ar">
+                  <i class="fa-brands fa-google text-light"></i
+                ></a>
+              </div>
+              <div class="icons">
+                <a href="https://www.linkedin.com/feed/"
+                  ><i class="fa-brands fa-linkedin-in text-light"></i
+                ></a>
+              </div>
+              <div class="icons">
+                <a href="https://github.com/">
+                  <i class="fa-brands fa-github text-light"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***endsa section end*** -->
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/ABOUT.js"></script>
+  </body>
+</html>

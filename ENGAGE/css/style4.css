@@ -1,0 +1,623 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y : hidden;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image   : url(../imges/photo-1495234347927-15da3bd48ee6.jpg);
+  background-size    : cover;
+  background-position: center center;
+}
+
+.prgraf {
+  color: rgba(255, 255, 255, .92);
+
+}
+
+
+.head {
+  color: rgba(255, 255, 255, .92);
+
+}
+
+.daeq {
+  color: rgba(255, 255, 255, .92);
+
+  font-size: 26px;
+  width    : 700px;
+}
+
+.buraw {
+  border: none;
+}
+
+.fsdf {
+  margin: auto;
+}
+
+
+i {
+  cursor: pointer;
+}
+
+.icon {
+  position : fixed;
+  left     : 0px;
+  top      : 70px;
+  width    : 30px;
+  cursor   : pointer;
+  font-size: large;
+}
+
+.up-icon {
+  width : 25px;
+  height: 40px;
+  border: 2px solid white;
+  bottom: 15%;
+  cursor: pointer;
+}
+
+.up-icon::after {
+  content         : "";
+  position        : absolute;
+  width           : 2px;
+  height          : 7px;
+  background-color: white;
+  bottom          : 5px;
+  left            : 50%;
+  transform       : translateY(-50%);
+  animation       : moving 1s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    bottom: 5px
+  }
+
+  10% {
+    bottom: 10px;
+  }
+
+  15% {
+    bottom: 12px;
+  }
+
+  25% {
+    bottom: 13px;
+  }
+
+  30% {
+    bottom: 15px;
+  }
+
+  40% {
+    bottom: 16px;
+  }
+
+  50% {
+    bottom: 17px;
+  }
+
+  60% {
+    bottom: 18px;
+  }
+
+  70% {
+    bottom: 19px;
+  }
+
+  100% {
+    bottom: 5px;
+  }
+
+}
+
+.fa-solid {
+  cursor: pointer;
+}
+
+.blak {
+  background-color: #161616;
+}
+
+.blak p {
+  color: #606060;
+}
+
+#About {
+  background: #1d1d1d;
+}
+
+#About p {
+  color: #888;
+}
+
+
+
+.Albums {
+  background-color: #161616;
+
+}
+
+.Albums p {
+  color: #888;
+}
+
+#All-tab {
+  color           : white;
+  background-color: #161616;
+  height          : 40px;
+  border-bottom   : 1px solid rgba(0, 0, 0, 0.1);
+  border-radius   : 15%;
+
+}
+
+
+
+
+#Landscape-tab {
+  background-color: #161616;
+  color           : white;
+  border          : none !important;
+}
+
+#Landscape-tab:hover {
+  color: #888;
+
+}
+
+#Mountains-tab {
+  background-color: #161616;
+  color           : white;
+  border          : none !important;
+
+}
+
+#Mountains-tab:hover {
+  color: #888;
+
+}
+
+#Nature-tab {
+  background-color: #161616;
+  color           : white;
+  border          : none !important;
+
+}
+
+#Nature-tab:hover {
+  color: #888;
+
+}
+
+#Photography-tab {
+  background-color: #161616;
+  color           : white;
+  border          : none !important;
+}
+
+#Photography-tab:hover {
+  color: #888;
+
+}
+
+#Travel-tab {
+  background-color: #161616;
+  color           : white;
+  border          : none !important;
+}
+
+#Travel-tab:hover {
+  color: #888;
+
+}
+
+.nav-tabs {
+  border: none !important;
+
+}
+
+.nav-link:hover {
+  color: rgb(226, 11, 11);
+
+}
+
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.489);
+  transition      : 1s;
+}
+
+.icons {
+  background-color: rgba(0, 0, 0, 0.489);
+  width           : 42px;
+  height          : 42px;
+  border-radius   : 50%;
+  bottom          : 500;
+}
+
+.icons i {
+
+
+  padding: 13px !important;
+
+}
+
+
+.icoms {
+  background-color: rgba(0, 0, 0, 0.489);
+  width           : 42px;
+  height          : 42px;
+  border-radius   : 50%;
+  margin-left     : 20px;
+}
+
+.icoms i {
+
+
+  padding: 13px !important;
+
+}
+
+.layer:hover {
+  opacity: 1 !important;
+}
+
+.work-itmes:hover img {
+  transform: scale(1.1);
+}
+
+.work-itmes {
+  overflow: hidden !important;
+}
+
+img {
+  transition: 1s;
+  overflow  : hidden !important;
+
+}
+
+.wores-content {
+  transition: 1s;
+}
+
+.work-itmes:hover .wores-content {
+  top: 0 !important;
+}
+
+.btntre {
+  background-color: #161616;
+  color           : white;
+  padding-right   : 50px;
+}
+
+#main-nav {
+  transition: 2s;
+}
+
+#bton {
+  width           : 42PX;
+  height          : 42PX;
+  border          : none;
+  position        : fixed;
+  right           : 30px;
+  left            : 100%px;
+  bottom          : 20px;
+  display         : none;
+  background-color: #0d06067d;
+  color           : white;
+
+
+  z-index: 999999999;
+}
+
+#options {
+  position: fixed;
+  z-index : 999999999;
+  left    : 0px;
+  top     : 65px;
+}
+
+#colorsBox {
+  padding         : 10px;
+  background-color: #ccc;
+
+}
+
+#options i {
+
+  background-color: black;
+  color           : white;
+  padding         : 10px;
+}
+
+.color-itms {
+  width           : 30px;
+  height          : 30px;
+  background-color: orange;
+  display         : inline-block;
+  cursor          : pointer;
+}
+
+.main-slaider {
+  background-color: #333;
+  height          : 500px;
+}
+
+.slick-slider {
+  width           : 600px;
+  margin          : auto;
+  background-color: #606060;
+  height          : 500px;
+}
+
+.item {
+  text-align : center;
+  line-height: 500px;
+}
+
+.pony {
+  font-size: 12px;
+}
+
+section {
+  background: #1d1d1d;
+
+}
+
+.container p {
+  color: #606060;
+
+}
+
+h6 {
+  color: #606060;
+
+}
+
+h5 {
+  color: white;
+}
+
+.adres {
+  color     : rgba(255, 255, 255, 0.778);
+  transition: 0.5s;
+}
+
+.adres:hover i {
+  color       : #333;
+  padding-left: 10px;
+}
+
+.adres:hover {
+  color: #333;
+
+}
+
+i {
+  transition: 0.5s;
+}
+
+h5:hover {
+  color     : blue;
+  transition: 1s;
+}
+
+.mdfs {
+  border-radius: 10px;
+  background   : rgba(51, 51, 51, 0.148);
+  width        : 30%;
+
+}
+
+.pony {
+  color: rgb(77, 74, 74);
+}
+
+.container p {
+  color: #999;
+}
+
+p {
+  color: #999;
+
+}
+
+.monh {
+  height       : 220px;
+  width        : 380px;
+  padding      : 20px 35px;
+  background   : rgba(153, 153, 153, 0.023);
+  border-radius: 10px;
+  margin       : 15px;
+}
+
+.monh p {
+  font-size: small;
+  color    : rgba(153, 153, 153, 0.255);
+
+}
+
+.test {
+  color: #999;
+
+}
+
+.lpao {
+  color      : rgba(255, 255, 255, 0.71);
+  padding-top: 12px;
+}
+
+.lpao:hover {
+  color     : rgba(153, 153, 153, 0.255);
+  transition: 0.5;
+
+}
+
+.lpao:hover i {
+  padding-left: 15px;
+  transition  : 0.5;
+}
+
+.qxwe {
+  color: white;
+}
+
+.qxwe:hover {
+  color     : blue;
+  transition: 1s;
+}
+
+.cbtn {
+  margin-top      : 55px;
+  padding         : 10px 35px;
+  color           : white;
+  background-color: rgba(153, 153, 153, 0.164);
+  border-radius   : 5px;
+  border          : none;
+
+
+}
+
+#loading {
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  top             : 0;
+  left            : 0;
+  bottom          : 0;
+  right           : 0;
+  background-color: #161616;
+  position        : fixed;
+  z-index         : 9999999999999999999999999;
+}
+
+
+.spinner {
+  margin    : 200px auto;
+  width     : 50px;
+  height    : 40px;
+  text-align: center;
+  font-size : 10px;
+}
+
+.spinner>div {
+  background-color: #fff;
+  height          : 100%;
+  width           : 6px;
+  display         : inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation        : sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay        : -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay        : -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay        : -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay        : -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4)
+  }
+
+  20% {
+    -webkit-transform: scaleY(1.0)
+  }
+}
+
+@keyframes sk-stretchdelay {
+
+  0%,
+  40%,
+  100% {
+    transform        : scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+
+  20% {
+    transform        : scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+
+.ml6 {
+  position   : relative;
+  font-weight: 900;
+  font-size  : 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position      : relative;
+  display       : inline-block;
+  padding-top   : 0.2em;
+  padding-right : 0.05em;
+  padding-bottom: 0.1em;
+  overflow      : hidden;
+}
+
+.ml6 .letter {
+  display    : inline-block;
+  line-height: 1em;
+}
+
+.monr {
+  text-decoration: none;
+  color          : #161616;
+}
+
+.icons {
+  width           : 40px;
+  height          : 40px;
+  background-color: #333333;
+  text-align      : center;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  border-radius   : 50%;
+}
+
+.mjfm {
+  width          : 13%;
+  justify-content: space-between;
+}
+
+.icons:hover {
+  background-color: #0275d8;
+}
+
+.goog:hover {
+  background-color: red;
+
+}
+
+.amil {
+  color: #999;
+}
+
+.dsds {
+  background-color: #161616;
+}
